@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[FT01]]>
+    </line>
+    <line>
+      <![CDATA[FT02]]>
+    </line>
+    <line>
+      <![CDATA[FT01 2]]>
+    </line>
+    <line>
+      <![CDATA[FT03]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-27T08:37:52 IST" name="Suite" finished-at="2024-07-27T08:38:13 IST" duration-ms="20294">
+    <groups>
+    </groups>
+    <test started-at="2024-07-27T08:37:52 IST" name="Test" finished-at="2024-07-27T08:38:13 IST" duration-ms="20294">
+      <class name="batch.FT03">
+        <test-method signature="ft_01()[pri:0, instance:batch.FT03@47eaca72]" started-at="2024-07-27T08:37:59 IST" name="ft_01" finished-at="2024-07-27T08:38:13 IST" duration-ms="13815" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[FT03]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ft_01 -->
+      </class> <!-- batch.FT03 -->
+      <class name="batch.FT02">
+        <test-method signature="ft_01()[pri:0, instance:batch.FT02@1aafa419]" started-at="2024-07-27T08:37:53 IST" name="ft_01" finished-at="2024-07-27T08:37:59 IST" duration-ms="6400" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[FT02]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ft_01 -->
+      </class> <!-- batch.FT02 -->
+      <class name="batch.FT01">
+        <test-method signature="ft_01()[pri:0, instance:batch.FT01@459e9125]" started-at="2024-07-27T08:37:53 IST" name="ft_01" finished-at="2024-07-27T08:37:57 IST" duration-ms="4263" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[FT01]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ft_01 -->
+        <test-method signature="ft_02()[pri:0, instance:batch.FT01@459e9125]" started-at="2024-07-27T08:37:57 IST" name="ft_02" finished-at="2024-07-27T08:38:07 IST" duration-ms="9788" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[FT01 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ft_02 -->
+      </class> <!-- batch.FT01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
